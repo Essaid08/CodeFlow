@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
     .background-light850_dark100 {
         @apply bg-light-850 dark:bg-dark-100;
@@ -177,7 +176,7 @@
     }
 
     .placeholder {
-        @apply placeholder:text-light-400 dark:placeholder:text-light-;
+        @apply placeholder:text-light-400 dark:placeholder:text-light-500;
     }
 
     .invert-colors {
@@ -201,4 +200,4 @@
                 rgba(23, 28, 35, 0.41) 0%,
                 rgba(19, 22, 28, 0.7) 100%);
     }
-}
+} 
