@@ -57,7 +57,7 @@ body {
   }
 
   .no-focus {
-    @apply focus-visible:ring-0 focus-visible:ring-transparent outline-none;
+    @apply focus-visible:ring-0 focus-visible:ring-transparent outline-none dark:outline-0;
   }
 }
 

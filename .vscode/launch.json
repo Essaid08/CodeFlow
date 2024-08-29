@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Next.js: Chrome", // Descriptive name for your configuration
+            "type": "chrome", // Select Chrome for web app debugging
+            "request": "launch", // Specify launch behavior
+            "skipFiles": [
+                "<node_modules>" // Exclude node_modules from debugging
+            ],
+            "webRoot": "/app", // Set the root directory of your Next.js project
+            "url": "http://localhost:3000" // Adjust URL to match your development server's port
+        }
+    ]
+}

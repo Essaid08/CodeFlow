@@ -30,8 +30,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
 
+  return (
     <html lang="en">
       <body className={`${inter.variable} ${spaceGrowtesk.variable}`}>
         <ClerkProvider
